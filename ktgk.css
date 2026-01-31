@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #fff;
+    padding: 20px;
+}
+.khungchinh {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    gap: 20px;
+    justify-content: space-between;
+}
+.cottintuc {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.nhantieude {
+    background-color: #a80000;
+    color: white;
+    padding: 7px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: fit-content;
+}
+.khoianh img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+}
+.tieude {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    text-decoration: none;
+    display: block;
+}
+.tieude:hover {
+    color: #a80000;
+}
+.ngaydang {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconmxh i {
+    margin-left: 6px;
+    color: #bbb;
+    font-size: 14px;
+}
+.gachngang {
+    border-top: 1px dotted #ccc;
+    margin: 12px 0;
+}
+.listtin {
+    list-style: none;
+    padding-left: 15px;
+}
+.listtin li {
+    position: relative;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.5;
+}
+.listtin li::before {
+    content: "■";
+    color: #ccc;
+    font-size: 8px;
+    position: absolute;
+    left: -15px;
+    top: 5px;
+}
